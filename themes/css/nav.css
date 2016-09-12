@@ -1,13 +1,14 @@
 nav {
     background-color: #333333;
     color: white;
+    display: inline-block;
 }
-nav a{
+nav a, nav ul li a{
     text-decoration: none;
     font-size: 16pt;
     font-family: sans-serif;
 }
-nav a:hover {
+nav a:hover, nav ul li:hover a {
     background-color: #ccc;
     color: black;
 }
