@@ -12,8 +12,8 @@ nav a:hover, nav ul li:hover a {
     color: black;
 }
 @media all and (max-width:768px){
-nav#desktop ul{
-    visibility:hidden;
+nav#desktop{
+    display: none;
 }
 nav#phone{
     display: inline-block;
