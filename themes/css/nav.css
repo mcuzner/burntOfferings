@@ -1,7 +1,6 @@
 nav {
     background-color: #333333;
     color: white;
-    display: inline-block;
 }
 nav a, nav ul li a{
     text-decoration: none;
