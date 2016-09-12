@@ -12,11 +12,13 @@ nav a:hover, nav ul li:hover a {
     background-color: #ccc;
     color: black;
 }
+@media all and (max-width:768px){
 nav#desktop{
     display: none;
 }
 nav#phone{
     display: inline-block;
+}
 }
 @media all and (min-width:768px){
     nav#desktop{
