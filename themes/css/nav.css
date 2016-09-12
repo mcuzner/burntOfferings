@@ -1,0 +1,13 @@
+nav {
+    background-color: #333333;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+nav a:hover {
+    background-color: #ccc;
+    color: black;
+}

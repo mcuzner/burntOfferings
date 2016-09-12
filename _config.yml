@@ -2,3 +2,4 @@ name: Jekyll Site
 version: 3.0.3
 
 layouts_dir: ./themes/layouts
+includes_dir: ./themes/includes
