@@ -12,18 +12,18 @@ nav a:hover, nav ul li:hover a {
     color: black;
 }
 @media all and (max-width:1024px){
-nav#desktop{
+#desktop{
     display: none;
 }
-nav#phone{
+#phone{
     display: inline-block;
 }
 }
 @media all and (min-width:768px){
-    nav#desktop{
+    #desktop{
         display: inline-block;
     }
-    nav#phone{
+    #phone{
         display: none;
     }
 }
