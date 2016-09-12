@@ -12,17 +12,17 @@ nav a:hover, nav ul li:hover a {
     background-color: #ccc;
     color: black;
 }
-nav ul li a{
+nav#desktop{
     display:none;
 }
-nav a{
+nav#phone{
     display:inline-block;
 }
 @media all and (min-width:768px){
-    nav ul li a{
+    nav#desktop{
         display: inline-block;
     }
-    nav a{
+    nav#phone{
         display:none;
     }
 }
