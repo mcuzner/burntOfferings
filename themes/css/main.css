@@ -1,0 +1,13 @@
+/* import the Roboto font from Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic);
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+body {
+  margin: 0;
+  background:#ccc;
+}
