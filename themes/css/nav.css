@@ -13,16 +13,16 @@ nav a:hover, nav ul li:hover a {
     color: black;
 }
 nav#desktop{
-    display:none;
+    display: none;
 }
 nav#phone{
-    display:inline-block;
+    display: inline-block;
 }
 @media all and (min-width:768px){
     nav#desktop{
         display: inline-block;
     }
     nav#phone{
-        display:none;
+        display: none;
     }
 }
