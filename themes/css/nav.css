@@ -12,7 +12,7 @@ nav a:hover, nav ul li:hover a {
     background-color: #ccc;
     color: black;
 }
-nav ul{
+nav ul li a{
     display:none;
 }
 nav a{
