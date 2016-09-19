@@ -20,6 +20,7 @@ nav ul li:hover a{
 #phone{
     display: inline-block;
     font-size:16pt;
+    width:100%;
 }
 #phone ul li {
     width:calc(25% - 4px);
