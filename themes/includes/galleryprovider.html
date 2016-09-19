@@ -3,7 +3,7 @@
 {% for collection in site.data.splash_displays %}
     {% if collection.id == page.id %}
         {% for image in collection %}
-            <div class="imagecontiner">
+            <div class="imagecontainer">
                 <img src="{collection.imagefolder}/{image.name}"/>
             </div>
         {% endfor %}
