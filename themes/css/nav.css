@@ -23,7 +23,7 @@ nav ul li:hover a{
     width:100%;
 }
 #phone ul li {
-    width:calc(25% - 4px);
+    width:calc(22% - 4px);
 }
 @media all and (min-width:768px){
     #desktop{
