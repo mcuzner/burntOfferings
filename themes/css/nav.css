@@ -15,6 +15,7 @@ nav ul li:hover a{
 }
 #desktop{
     display: none;
+    width:100%;
 }
 #phone{
     display: inline-block;
