@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="/themes/css/imagemanager.css"/>
 
-{% for image in site.data.splash_displays %}
-
+{% for collection in site.data.splash_displays %}
+    {% if collection.id == page.title %}
+        {% for image in collection %}
+            <div class="imagecontiner">
+                <img src="{collection.folder}/{image.name}"/>
+            </div>
 {% endfor %}
