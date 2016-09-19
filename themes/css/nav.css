@@ -1,5 +1,9 @@
 nav{
     background-color: #333333;
+<<<<<<< HEAD
+=======
+    color: white;
+>>>>>>> origin/master
 }
 nav ul li, nav ul li a{
     display: inline-block;
@@ -12,4 +16,21 @@ nav ul li, nav ul li a{
 nav ul li:hover a{
     background-color: #cccccc;
     color: black;
+<<<<<<< HEAD
+=======
+}
+#desktop{
+    display: none;
+}
+#phone{
+    display: inline-block;
+}
+@media all and (min-width:768px){
+    #desktop{
+        display: inline-block;
+    }
+    #phone{
+        display: none;
+    }
+>>>>>>> origin/master
 }
