@@ -1,5 +1,5 @@
 - id: splashproducts
-  imagefolder: /img/splash
+  imagefolder: ./_data/img/splashproducts
   images:
   - name: paint.jpg
     text: Paints
