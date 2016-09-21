@@ -4,7 +4,7 @@
     {% if collection.id == page.id %}
         {% for image in collection %}
             <div class="imagecontainer">
-                <img src=".{{ collection.imagefolder }}/{{ image.name }}"/>
+                <img src=".{{ image.name }}"/>
             </div>
         {% endfor %}
     {% endif %}
