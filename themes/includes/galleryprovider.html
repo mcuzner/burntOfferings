@@ -1,11 +1,9 @@
 <link rel="stylesheet" href="/themes/css/imagemanager.css"/>
 
 {% for collection in site.data.imagedisplays %}
-    {% if collection.id == page.id %}
-        {% for image in collection %}
+    {% for image in collection %}
             <div class="imagecontainer">
                 <img src="{{ image.name }}"/>
             </div>
-        {% endfor %}
-    {% endif %}
+    {% endfor %}
 {% endfor %}
