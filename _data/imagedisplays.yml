@@ -1,10 +1,2 @@
-- id: splashproducts
-  images:
-    - name: ./img/splashimages/paint.jpg
-      text: Paints
-    - name: ./img/splashimages/paint.jpg
-      text: Also Paints
-    - name: ./img/splashimages/paint.jpg
-      text: paint
-    - name: ./img/splashimages/paint.jpg
-      text: paint
+- name: Paint
+  source: ./img/splashimages/paint.jpg
