@@ -1,2 +1,8 @@
 - name: Paint
   source: ./img/splashimages/paint.jpg
+- name: Boxes
+  source: ./img/splashimages/boxes.jpg
+- name: More Boxes
+  source: ./img/splashimages/moreboxes.jpg
+- name: Even More Boxes
+  source: ./img/splashimages/evenmoreboxes.jpg
