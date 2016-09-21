@@ -10,7 +10,7 @@ div.imagecontainer:nth-of-type(2n) {
 .splashimage{
     width:100%;
 }
-@media all and (min-width: 1024px) {
+@media all and (min-width: 75em) {
   div.imagecontainer {
     width: calc(24.5% - 6px);
   }
