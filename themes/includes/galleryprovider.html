@@ -1,9 +1,7 @@
 <link rel="stylesheet" href="/themes/css/imagemanager.css"/>
 
-{% for collection in site.data.imagedisplays %}
-    {% for image in collection %}
-            <div class="imagecontainer">
-                <img src="{{ image.name }}"/>
-            </div>
-    {% endfor %}
+{% for image in site.data.imagedisplays %}
+        <div class="imagecontainer">
+            <img src="{{ image.source }}"/>
+        </div>
 {% endfor %}
