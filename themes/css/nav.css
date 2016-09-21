@@ -9,7 +9,7 @@ nav ul li, nav ul li a{
     font-size: 1.5em;
     padding: 5pt;
 }
-nav ul li:hover a{
+nav ul li:hover{
     background-color: #cccccc;
     color: black;
 }
