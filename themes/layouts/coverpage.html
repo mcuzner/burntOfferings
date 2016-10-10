@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ site.name }}</title>
+    <link rel="stylesheet" href="./themes/css/main.css"/>
+</head>
+<body>
+    <img id="splashimage" src="{{ page.coverimage }}">
+    {% include navbar.html %}
+    {{content}}
+</body>
+</html>
