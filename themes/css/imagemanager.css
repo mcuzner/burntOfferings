@@ -24,6 +24,7 @@ div.imagecontainer:nth-of-type(2n) {
 /* Other images */
 /* splash image */
 .splashimage{
+    position:relative;
     display:block;
     width:calc(100% - 1em);
     margin-left:auto;
