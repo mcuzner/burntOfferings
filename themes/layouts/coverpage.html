@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="./themes/css/imagemanager.css"/>
 </head>
 <body>
-    <img class="splashimage" src="{{ page.coverimage }}">
-    {% include navbar.html %}
-    {{content}}
+    <div class="pagecontainer">
+        {% include navbar.html %}
+        {{content}}
+    </div>
 </body>
 </html>
