@@ -24,6 +24,9 @@ nav ul li:hover{
     display: none;
     width:100%;
 }
+#desktop ul li{
+    width:calc(23% - 0.5em);
+}
 #phone{
     display: inline-block;
     font-size:1.5em;
