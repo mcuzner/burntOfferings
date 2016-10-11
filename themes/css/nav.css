@@ -8,7 +8,7 @@ nav ul li, nav ul li a{
     color: black;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 5pt;
 }
 nav ul li a {
@@ -24,7 +24,7 @@ nav ul li:hover{
 }
 #phone{
     display: inline-block;
-    font-size:1em;
+    font-size:1.5em;
     width:100%;
     text-align:center;
 }
