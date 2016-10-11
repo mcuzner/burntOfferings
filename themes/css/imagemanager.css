@@ -24,10 +24,10 @@ div.imagecontainer:nth-of-type(2n) {
 /* Other images */
 /* splash image */
 .splashimage{
-    position:relative;
+    position:float;
     display:block;
     width:calc(100% - 1em);
     margin-left:auto;
     margin-right:auto;
-    z-index:0;
+    z-index:-1;
 }
