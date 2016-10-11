@@ -25,6 +25,7 @@ nav ul li:hover{
     width:100%;
 }
 #desktop ul li{
+    text-align:center;
     width:calc(23% - 0.5em);
 }
 #phone{
