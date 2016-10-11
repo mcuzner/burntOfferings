@@ -3,7 +3,7 @@ nav{
     margin-top:-150em;
     z-index:5;
 }
-nav ul{
+nav ul li{
     display:block;
     margin-right:auto;
     margin-left:auto;
