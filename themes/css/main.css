@@ -23,8 +23,14 @@ body {
 }
 
 /* Main page css */
-#covertitle{
-    font-family: 'Kranky', serif;
+.covertitle{
+    font-family: 'Kranky';
+    font-size: 5em;
+    
+}
+#maintitle{
+    text-align: center;
+    margin-top:-15em;
 }
 .pagecontainer{
     background-color:#dddddd;
