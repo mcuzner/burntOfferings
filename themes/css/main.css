@@ -33,6 +33,7 @@ body {
     text-align: center;
     margin-top:-2em;
     padding: 1em;
+    padding-bottom: 0.8em;
 }
 /* fixes title for mobile pages - without it the title and navbar will merge on pages below 65em */
 @media all and (max-width:65em){
