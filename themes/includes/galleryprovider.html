@@ -3,5 +3,6 @@
 {% for image in site.data.imagedisplays %}
         <div class="imagecontainer">
             <img class="splashimage" src="{{ image.source }}"/>
+            {{ image.name }}
         </div>
 {% endfor %}
