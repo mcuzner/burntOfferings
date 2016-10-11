@@ -34,6 +34,11 @@ body {
     margin-top:-2em;
     padding: 1em;
 }
+@media all and (max-width:65em){
+    #maintitle{
+        margin-top -3em;
+    }
+}
 .pagecontainer{
     background-color:#dddddd;
 }
