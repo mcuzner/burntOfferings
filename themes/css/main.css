@@ -43,3 +43,14 @@ body {
 .pagecontainer{
     background-color:#dddddd;
 }
+
+.pagecontainer h1{
+    text-align:center;
+    font-size: 1.3em;
+}
+.pagecontainer p{
+    font-size: 0.8em;
+}
+
+
+
