@@ -10,6 +10,10 @@
   items:
     - name: Cardboard Box
       price: $0.50
+    - name: Wooden Box
+      price: $1.50
+    - name: NASA Grade Special Box
+      price: $All of it
 - id: moboxes
   items:
     - name:
