@@ -9,11 +9,11 @@
         {% include navbar.html %}
         {{ content }}
         <ul>
-            {% for section in site.data.products %}
-                <!-- {% if section.id == content.data %} -->
-                    {% for item in section.items %}
+            {% for item in site.data.products[page.data] %}
+                <!-- {% if section.id == content.data %}
+                    {% for item in section.items %} -->
                         <li><span>{{ item.name }}</span><span>{{ item.price }}</span></li>
-                    {% endfor %}
+                    <!-- {% endfor %}
                 <!-- {% endif %} -->
             {% endfor%}
         </ul>
