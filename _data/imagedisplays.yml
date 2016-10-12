@@ -1,8 +1,12 @@
 - name: Paint
   source: ./img/splashimages/paint.jpg
+  link: /products/paint.html
 - name: Boxes
   source: ./img/splashimages/boxes.jpg
+  link: /products/boxes.html
 - name: More Boxes
   source: ./img/splashimages/moreboxes.jpg
+  link: /products/moboxes.html
 - name: Even More Boxes
   source: ./img/splashimages/evenmoreboxes.jpg
+  link: /products/portals.html
