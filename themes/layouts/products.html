@@ -12,7 +12,7 @@
             {% for section in site.data.products %}
                 {% if section.id == page.data %}
                     {% for item in section.items %}
-                        <li><span>{{ item.name }}</span><span>{{ item.price }}</span></li>
+                        <li><span class="productname">{{ item.name }}</span><span class="productprice">{{ item.price }}</span></li>
                     {% endfor %}
                 {% endif %}
             {% endfor%}
