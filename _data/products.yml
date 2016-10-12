@@ -1,6 +1,7 @@
-- name: Yellow Paint
-  price: $1.50
-- name: Blue Paint
-  price: $1.50
-- name: Red Paint
-  price: $1.50
+- id: paints
+    - name: Yellow Paint
+      price: $1.50
+    - name: Blue Paint
+      price: $1.50
+    - name: Red Paint
+      price: $1.50
