@@ -6,7 +6,7 @@ ul.productcontainer li{
     width:100%;
 }
 .product span{
-    width:calc(50% - 1em);
+    width:calc(48% - 1em);
     display:flex;
 }
 .productname{
