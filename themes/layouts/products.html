@@ -8,7 +8,7 @@
     <body>
         {% include navbar.html %}
         {{ content }}
-        <ul>
+        <ul class="productcontainer">
             {% for section in site.data.products %}
                 {% if section.id == page.data %}
                     {% for item in section.items %}
