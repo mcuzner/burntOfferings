@@ -4,7 +4,9 @@
 
 {% for image in site.data.imagedisplays %}
         <div class="imagecontainer">
-            <img class="splashimage" src="{{ image.source }}"/>
-            {{ image.name }}
+            <a href="{{ image.link }}">
+                <img class="splashimage" src="{{ image.source }}"/>
+                {{ image.name }}
+            </a>
         </div>
 {% endfor %}
