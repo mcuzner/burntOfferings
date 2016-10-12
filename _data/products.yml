@@ -1,5 +1,5 @@
 - id: paints
-  items:
+  item:
   - name: Yellow Paint
     price: $1.50
   - name: Blue Paint
