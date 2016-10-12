@@ -8,8 +8,8 @@ ul.productcontainer li{
     width:calc(50% - 1em);
 }
 .productname{
-    text-align:left;
+    text-align:center;
 }
 .productprice{
-    text-align:right;
+    text-align:center;
 }
