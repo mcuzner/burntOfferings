@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>{{ content.title }}</title>
+        <title>{{ page.title }}</title>
         <link rel="stylesheet" href="/themes/css/main.css"/>
     </head>
 
@@ -10,11 +10,7 @@
         {{ content }}
         <ul>
             {% for item in site.data.products[page.data] %}
-                <!-- {% if section.id == content.data %}
-                    {% for item in section.items %} -->
-                        <li><span>{{ item.name }}</span><span>{{ item.price }}</span></li>
-                    <!-- {% endfor %}
-                <!-- {% endif %} -->
+                
             {% endfor%}
         </ul>
     </body>
