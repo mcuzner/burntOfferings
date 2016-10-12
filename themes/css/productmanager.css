@@ -1,6 +1,12 @@
 ul.productcontainer li{
     list-style-type:none;
 }
+.product{
+    width:100%;
+}
+.product span{
+    width:calc(50% - 1em);
+}
 .productname{
     text-align:left;
 }
