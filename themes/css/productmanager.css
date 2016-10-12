@@ -1,3 +1,6 @@
+ul.productcontainer li{
+    list-style-type:none;
+}
 .productname{
     text-align:left;
 }
