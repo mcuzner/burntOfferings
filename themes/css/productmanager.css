@@ -1,5 +1,6 @@
 ul.productcontainer li{
     list-style-type:none;
+    width:100%;
 }
 .product{
     width:100%;
