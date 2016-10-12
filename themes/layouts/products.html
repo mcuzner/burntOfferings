@@ -10,7 +10,7 @@
         {{ content }}
         <ul>
             {% for item in site.data.products[page.data] %}
-                
+                <li>{{ item.name }}</li>
             {% endfor%}
         </ul>
     </body>
