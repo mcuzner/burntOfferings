@@ -8,5 +8,10 @@
     <body>
         {% include navbar.html %}
         {{ content }}
+        <ul>
+            {% for item in site.data.{{ content.data }} %}
+                <li><span>{{ item.name }}</span><span>{{ item.price }}</span></li>
+            {% endfor%}
+        </ul>
     </body>
 </html>
