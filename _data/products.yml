@@ -1,8 +1,16 @@
 - id: paints
   items:
-  - name: Yellow Paint
-    price: $1.50
-  - name: Blue Paint
-    price: $1.50
-  - name: Red Paint
-    price: $1.50
+    - name: Yellow Paint
+      price: $1.50
+    - name: Blue Paint
+      price: $1.50
+    - name: Red Paint
+      price: $1.50
+- id: boxes
+  items:
+    - name: Cardboard Box
+      price: $0.50
+- id: moboxes
+  items:
+    - name:
+      price:
