@@ -7,7 +7,7 @@ ul.productcontainer li{
 }
 .product span{
     width:calc(30% - 1em);
-    display:flex;
+    display:inline-block;
 }
 .productname{
     text-align:center;
