@@ -10,11 +10,11 @@
         {{ content }}
         <ul>
             {% for section in site.data.products %}
-                {% if section.id == content.data %}
+                <!-- {% if section.id == content.data %} -->
                     {% for item in section %}
                         <li><span>{{ item.name }}</span><span>{{ item.price }}</span></li>
                     {% endfor %}
-                {% endif %}
+                <!-- {% endif %} -->
             {% endfor%}
         </ul>
     </body>
