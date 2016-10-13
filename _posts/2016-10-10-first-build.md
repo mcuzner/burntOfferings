@@ -13,12 +13,4 @@ This uses Jekyll's inbuilt blog post creation system.
 <p>
 Which allows me to seperate paragraphs easily, insert images and files inline with text, and also allow for easy to read code on the website such as:
 </p>
-{% highlight ruby linenos %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
+{% gist 7b2d32a2fc253aeee99fc47ef86b2b5b %}
