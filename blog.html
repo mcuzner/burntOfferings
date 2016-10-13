@@ -3,3 +3,8 @@ title: Burnt Offerings | Blog
 layout: coverpage
 coverimage: ../img/coverimages/blogcrop.jpg
 ---
+
+{% for post in site.data.blogposts %}
+    <div class="blogpost">
+        <p>{{ post.title }}</p>
+    </div>
