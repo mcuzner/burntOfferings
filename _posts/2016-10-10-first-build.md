@@ -13,7 +13,7 @@ This uses Jekyll's inbuilt blog post creation system.
 <p>
 Which allows me to seperate paragraphs easily, insert images and files inline with text, and also allow for easy to read code on the website such as:
 </p>
-{% highlight python %}
+{% highlight ruby linenos %}
 def beAwesome(person):
     if person.isAwesome == false: 
         person.isAwesome = true
