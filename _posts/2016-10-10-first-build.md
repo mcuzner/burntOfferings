@@ -14,10 +14,11 @@ This uses Jekyll's inbuilt blog post creation system.
 Which allows me to seperate paragraphs easily, insert images and files inline with text, and also allow for easy to read code on the website such as:
 </p>
 {% highlight ruby linenos %}
-def beAwesome(person):
-    if person.isAwesome == false: 
-        person.isAwesome = true
-        return "changed"
-    else:
-        return "skipped"
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
 {% endhighlight %}
