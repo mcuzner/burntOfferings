@@ -4,9 +4,10 @@ layout: coverpage
 coverimage: ../img/coverimages/blogcrop.jpg
 ---
 
-{% for post in site.data.blogposts %}
-    <div class="blogpost">
-        <p>{{ post.title }}</p>
-        <p>{{ post.content }}</p>
-    </div>
-{% endfor %}
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
