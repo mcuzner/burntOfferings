@@ -5,3 +5,23 @@
       price: $1.50
       link:
       img: yellowpaint.jpg
+    - name: Red Paint
+      price: $1.75
+      link:
+      img: redpaint.jpg
+    - name: Blue Paint
+      price: $1.50
+      link:
+      img: bluepaint.jpg
+    - name: Green Paint
+      price: $1.75
+      link:
+      img: greenpaint.jpg
+    - name: Black Paint
+      price: $1.45
+      link:
+      img: blackpaint.jpg
+    - name: White Paint
+      price: $1.45
+      link:
+      img: whitepaint.jpg
