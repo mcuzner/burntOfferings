@@ -2,25 +2,3 @@
   items:
     - name: Yellow Paint
       price: $1.50
-    - name: Blue Paint
-      price: $1.50
-    - name: Red Paint
-      price: $1.50
-- id: boxes
-  items:
-    - name: Cardboard Box
-      price: $0.50
-    - name: Wooden Box
-      price: $1.50
-    - name: NASA Grade Special Box
-      price: $All of it
-- id: moboxes
-  items:
-    - name: Metal Box
-      price: $40.00
-    - name: Purple Box
-      price: $40.50
-    - name: Red Box
-      price: $40.50
-    - name: Black Mesa Box
-      price: $41.50
