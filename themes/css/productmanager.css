@@ -22,7 +22,7 @@ div.productcontainer img{
     margin-right: 0;
     }
 }
-@media all and (min-width:75em){
+@media screen and (min-width:75em){
     div.productcontainer{
         width:calc(12.25% - 6px);
     }
