@@ -7,3 +7,14 @@ div.productcontainer{
 div.productcontainer:nth-of-type(4n){
     margin-right: 0;
 }
+@media all and (min-width:65em){
+    div.productcontainer{
+        width:calc(12.25% - 6px);
+    }
+    div.productcontainer:nth-of-type(4n){
+    margin-right: 4px;
+    }
+    div.productcontainer:nth-of-type(8n){
+    margin-right: 0;
+    }  
+}
