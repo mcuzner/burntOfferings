@@ -9,14 +9,15 @@
     <body>
         {% include navbar.html %}
         {{ content }}
-        <ul class="productcontainer">
             {% for section in site.data.products %}
                 {% if section.id == page.data %}
                     {% for item in section.items %}
-                        <li class="product"><span class="productname">{{ item.name }}</span><span class="productprice">{{ item.price }}</span></li>
+                        <div class="productcontainer">
+                            <img src="{{ site.url }}/{{ section.path }}/{{ item.img }}">
+                            <a href="{{ item.link }}">{{ item.name }}}</a>
+                        </div>
                     {% endfor %}
                 {% endif %}
-            {% endfor%}
-        </ul>
+            {% endfor %}
     </body>
 </html>
