@@ -3,6 +3,7 @@ div.productcontainer{
     margin-bottom: 4px;
     width:calc(24% - 6px);
     margin-right: 4px;
+    text-align:center;
 }
 div.productcontainer:nth-of-type(4n){
     margin-right: 0;
