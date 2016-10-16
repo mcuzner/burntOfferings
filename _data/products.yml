@@ -1,7 +1,7 @@
 - id: paints
-  path: img/products/paints
+  path: /uploads/yellowpaint.jpg
   items:
     - name: Yellow Paint
       price: $1.50
-      link: 
-      img: yellowPaint.png
+      link:
+      img: yellowPaint.jpg
