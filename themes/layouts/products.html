@@ -13,7 +13,7 @@
                 {% if section.id == page.data %}
                     {% for item in section.items %}
                         <div class="productcontainer">
-                            <img src="{{ site.url }}/{{ section.path }}/{{ item.img }}">
+                            <img src="{{ section.path }}/{{ item.img }}">
                             <a href="{{ item.link }}">{{ item.name }}<br>{{ item.price }}</a>
                         </div>
                     {% endfor %}
