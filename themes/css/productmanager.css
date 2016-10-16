@@ -1,18 +1,9 @@
-ul.productcontainer li{
-    list-style-type:none;
-    width:100%;
-    font-size: 1.2em;
+div.productcontainer{
+    display: inline-block;
+    margin-bottom: 4px;
+    width:calc(24% - 6px);
+    margin-right: 4px;
 }
-.product{
-    width:100%;
-}
-.product span{
-    width:calc(49% - 1em);
-    display:inline-block;
-}
-.productname{
-    text-align:center;
-}
-.productprice{
-    text-align:center;
+div.productcontainer:nth-of-type(4n){
+    margin-right: 0;
 }
