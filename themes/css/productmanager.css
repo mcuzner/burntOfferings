@@ -11,7 +11,7 @@ div.productcontainer:nth-of-type(2n){
 div.productcontainer img{
     width:100%;
 }
-@media not handheld and (min-width:60em){
+@media screen and (min-width:65em){
     div.productcontainer{
         width:calc(24% - 6px);
     }
