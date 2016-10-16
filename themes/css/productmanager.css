@@ -11,7 +11,7 @@ div.productcontainer:nth-of-type(2n){
 div.productcontainer img{
     width:100%;
 }
-@media all and (min-width:55em){
+@media all and (min-width:65em){
     div.productcontainer{
         width:calc(24% - 6px);
     }
