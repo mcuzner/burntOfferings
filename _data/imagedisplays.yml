@@ -1,9 +1,9 @@
 - name: Paint
-  source: ./img/splashimages/paint.jpg
+  source: ../img/splashimages/paint.jpg
   link: /products/paint.html
 - name: Brushes
-  source: ./img/splashimages/brushes.jpg
+  source: ../img/splashimages/brushes.jpg
   link:
 - name: Tools
-  source: ./img/splashimages/tools.jpg
+  source: ../img/splashimages/tools.jpg
   link:
