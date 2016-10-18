@@ -1,7 +1,9 @@
+<!-- imports stylesheets -->
 <link rel="stylesheet" href="/themes/css/imagemanager.css"/>
+<!-- old inline css, should be removed asap and added to main css code -->
 <style>.imagecontainer{text-align:center;}</style>
 
-
+<!-- for each category, displays an image representing that category and the category name. -->
 {% for image in site.data.imagedisplays %}
         <div class="imagecontainer">
             <a href="{{ image.link }}">
