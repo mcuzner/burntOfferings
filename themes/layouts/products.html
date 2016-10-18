@@ -9,6 +9,8 @@
     <body>
         {% include navbar.html %}
         {{ content }}
+        <!-- creates a for loop to find each category of products on the website, should that section match
+             the current page, it places and image and name for each product in the category -->
             {% for section in site.data.products %}
                 {% if section.id == page.data %}
                     {% for item in section.items %}
