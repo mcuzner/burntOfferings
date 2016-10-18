@@ -1,5 +1,6 @@
 /* import the Roboto font from Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic);
+/* imports Kranky font import as URL import is not working */
 @font-face {
   font-family: 'Kranky';
   font-style: normal;
@@ -16,7 +17,7 @@ html {
 }
 
 body {
-  width:80%;
+  width:85%;
   margin-left:auto;
   margin-right:auto;
   background-color:#f2f2f2;
@@ -41,6 +42,7 @@ body {
         padding-bottom:1.5em;
     }
 }
+/* page container to keep everything in colored sections. */
 .pagecontainer{
     background-color:#dddddd;
 }
